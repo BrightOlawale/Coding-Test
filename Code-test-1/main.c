@@ -47,5 +47,21 @@ int main()
     calc(subThree);
     calc(fiboThree);
 
+    free(add);
+    free(mul);
+    free(div);
+    free(sub);
+    free(fibo);
+    free(addTwo);
+    free(subTwo);
+    free(mulTwo);
+    free(divTwo);
+    free(fiboTwo);
+    free(addThree);
+    free(subThree);
+    free(mulThree);
+    free(divThree);
+    free(fiboThree);
+
     return 0;
 }
